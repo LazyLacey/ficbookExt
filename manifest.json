@@ -1,0 +1,22 @@
+{
+  "name": "fix fb styles",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Adds usability to back page",
+  "host_permissions": ["https://ficbook.net/*/"],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "app.e070967e3f978c7f0296.js",
+        "775.6f6128e1437b5d15972e.js",
+        "logo.svg"
+      ],
+      "matches": ["*://*/*"]
+    }
+  ],
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "background": {
+    "service_worker": "script.js",
+    "type": "module"
+  }
+}
