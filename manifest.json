@@ -1,8 +1,8 @@
 {
-  "name": "fix fb styles",
-  "version": "1.0",
+  "name": "Fixxbook",
+  "version": "1.1",
   "manifest_version": 3,
-  "description": "Adds usability to back page",
+  "description": "Adds slyle and js files to Ficbook pages, in case you cannot load them",
   "host_permissions": ["https://ficbook.net/*/"],
   "web_accessible_resources": [
     {
