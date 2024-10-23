@@ -7,9 +7,7 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "app.e070967e3f978c7f0296.js",
-        "775.6f6128e1437b5d15972e.js",
-        "logo.svg"
+        "/pieces/*"
       ],
       "matches": ["*://*/*"]
     }
