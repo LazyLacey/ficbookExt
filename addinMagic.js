@@ -5,7 +5,7 @@ function addJs () {
 
     localStorage.setItem('kek', chrome.runtime.getURL("pieces/775.6f6128e1437b5d15972e.js"));
     [...document.getElementsByTagName('img')].filter((img) => img.src.includes('logo.svg')).forEach((img) => {
-        img.src = chrome.runtime.getURL('logo.svg');
+        img.src = chrome.runtime.getURL('pieces/logo.svg');
     });
 }
 
