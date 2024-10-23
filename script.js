@@ -4,7 +4,7 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
   if (changeInfo.status == "loading") {
     chrome.scripting.insertCSS({
       target: { tabId: tabId },
-      files: ["pieces/app.df4e75f7ad1d24d4125c.css"],
+      files: ["pieces/app.1d3829ef94e2b6406292.css"],
     });
   }
 

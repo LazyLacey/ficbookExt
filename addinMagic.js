@@ -3,7 +3,9 @@ function addJs () {
     script.src = chrome.runtime.getURL('pieces/app.e070967e3f978c7f0296.js');
     document.getElementsByTagName('body')[0].appendChild(script);
 
-    localStorage.setItem('kek', chrome.runtime.getURL("pieces/775.6f6128e1437b5d15972e.js"));
+    console.log(chrome.runtime.getURL('pieces/'));
+
+    localStorage.setItem('fixxbook_folder', chrome.runtime.getURL('pieces/'));
     [...document.getElementsByTagName('img')].filter((img) => img.src.includes('logo.svg')).forEach((img) => {
         img.src = chrome.runtime.getURL('pieces/logo.svg');
     });

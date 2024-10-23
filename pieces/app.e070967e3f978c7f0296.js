@@ -68135,7 +68135,7 @@ https://vue-select.org/api/props.html#getoptionkey`,
         Object.defineProperty(e, "__esModule", { value: !0 });
     }),
     (n.nmd = (e) => ((e.paths = []), e.children || (e.children = []), e)),
-    (n.p = localStorage.getItem('kek').split('/').slice(0, -1).join('/') + '/')/* вот здесь лайфхачик */,
+    (n.p = localStorage.getItem('fixxbook_folder'))/* вот здесь лайфхачик */,
     (() => {
       if ("undefined" != typeof document) {
         var e = (e, t, n, r, i) => {
